@@ -9,56 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Ph.D. in Computer Science** (2024–Present), Hong Kong University of Science and Technology
+  * HKUST NLP Group
+  * Supervisor: Professor Junxian He
+* **B.Eng.** (2020–2024), Shanghai Jiao Tong University
+  * Recipient of the Zhiyuan Honor Scholarship
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Work Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Research Intern**, MINIMAX (February 2025 – Present)
+* **Research Intern**, Tencent WXG (June 2024 – September 2024)
+  * Supervisor: Zifei Shan
+* **Research Intern**, Shanghai AI Lab (June 2023 – December 2023)
+  * Supervisor: Professor Yu Cheng
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Skills
+
+* **Programming:** Python, PyTorch, Linux
+* **Languages:** English, Mandarin Chinese
+* **NLP & Machine Learning:** Large Language Models, Reinforcement Learning, Vision-Language Models, Chain-of-Thought Reasoning, Truthfulness and Interpretability
+* **Tools:** LaTeX, Git, Docker
+
+## Publications
+
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
